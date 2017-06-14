@@ -1,0 +1,45 @@
+/*NAVBAR*/
+
+nav.navbar.navbar-default.navbar-static-top {
+    margin-bottom: 0px;
+}
+
+.navbar-nav {
+    margin-left: 10% !important;
+}
+
+/*BASE*/
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 72px;
+    padding-top: 250px;
+    margin-top: 0px;
+}
+
+/*OUR STORY*/
+.home {
+background-image:url('images/overlay1.png');
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/*WHENWHERE*/
+.whenwhere {
+background-image:url('images/beach.png');
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/*COUNTDOWN*/
+#countdown {
+    text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+}
