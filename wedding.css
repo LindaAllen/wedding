@@ -61,7 +61,17 @@ background-repeat: no-repeat;
 
 /*RSVP*/
 .rsvp {
-background-image:url('images/beach.png');
+background-image:url('images/plane.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/*REGISTRY*/
+.registry {
+background-image:url('images/registry.jpg');
 height: 100vh;
 background-attachment: fixed;
 background-size: cover;
