@@ -3,82 +3,84 @@
 
     <head>
         <title>The McDevitt Wedding</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="wedding.css">
         
     </head>
 
     <body>
 
-        <!-- *NAVBAR********************* -->
-        <nav class="navbar navbar-default navbar-static-top">
-  <div class="container">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Welcome</a></li>
-        <li><a href="whenwhere.html">When & Where</a></li>
-        <li><a href="tripinfo.html">Trip Information</a></li>
-        <li><a href="x.html">RVSP</a></li>
-        <li><a href="x.html">Wedding Party</a></li>
+
+          <!-- *NAVBAR********************* -->
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Punta Cana</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Welcome</a></li>
+        <li class="active"><a href="whenwhere.html">When & Where<span class="sr-only">(current)</span></a></li>
+        <li><a href="tripinfo.html">Travel Information</a></li>
+        <li><a href="rsvp.html">RVSP</a></li>
+        <li><a href="party.html">Wedding Party</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="x.html">Schedule of Activities</a></li>
-        <li><a href="x.html">Registry</a></li>
-        <li><a href="x.html">PA Reception</a></li>
-    </ul>
-  </div>
-  </nav>
+        <li><a href="schedule.html">Schedule of Activities</a></li>
+        <li><a href="registry.html">Registry</a></li>
+        <li><a href="reception.html">PA Reception</a></li>
+          </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
         <!-- *TOP IMAGE********************* -->
-  <div class="home">
-            <h1>Linda & Ryan</h1>
+  <div class="whenwhere">
+            <h1>Punta Cana<br>
+              03.03.2018
+            </h1>
         </div>
-  <!--   <img src="images/engagement.jpg" class="img-responsive" alt="Responsive image">
-     <h1>Linda & Ryan</h1>  -->
-<!-- *COUNTDOWN********************* -->
-<div class="container">
-<p id="countdown"></p>
-<hr>
-</div>
 
  <!-- *MAIN CONTENT********************* -->
  <div class="container">
-    <div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="images/mexico.jpg" alt="..." style="height: 300px">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis tellus quis quam facilisis semper. Vivamus vel erat nunc. Donec aliquet accumsan arcu et vehicula. Morbi dignissim elementum convallis. Aenean pretium sem accumsan lacus convallis, et mattis metus posuere. Cras consectetur elit risus, a finibus libero volutpat eget. Sed sit amet efficitur libero.
-<br><br>
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Maecenas non rhoncus erat. Aenean in sagittis nisl. Sed varius dignissim rutrum. Duis lobortis, orci eget lacinia posuere, sem mi gravida neque, quis dapibus quam augue id nisi. Curabitur eget fermentum nibh. Donec eros velit, molestie ac sapien in, pharetra vulputate orci. Quisque sodales dignissim ex sit amet ullamcorper.
-<br><br>
-Morbi eu varius lacus. Aliquam ac ipsum lobortis, euismod sapien at, lacinia metus. Maecenas vitae dapibus leo. Nunc pharetra nisl ut turpis mattis posuere. Mauris malesuada fringilla tortor in varius. Aliquam fermentum sit amet ligula ac sodales. Maecenas iaculis accumsan rutrum.
-</p>
-  </div>
-</div>
-
-</div>
-
- <!-- *BOTTOM IMAGES********************* -->
- <!-- <div class="container">
-    <h2>Photo Gallery</h2>
-<div class="row">
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
+    <h2 class="center">Majestic Resorts Colonial</h2>
+    <h3 class="center">Punta Cana, Domnican Republic</h3>
+    <p class="center"><a href="http://en.majestic-resorts.com/" target="_blank">View Website</a></p>
 </div>
 <div class="row">
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
-  <div class="col-md-4"><img src="images/mexico.jpg" class="img-responsive" alt="Responsive image"></div>
+  <div class="col-xs-12 col-md-4 center">03.03.2018</div>
+  <div class="col-xs-12 col-md-4 center">2 pm</div>
+  <div class="col-xs-12 col-md-4 center">Beach Gazebo</div>
 </div>
-</div> -->
-
+<p>
+  <br><br>
+  Set on Arena Gorda Beach on the Atlantic coast, this high-end, all-inclusive resort dotted with palm trees is 5 km from Catalonia Caribe Golf Club. 
+<br><br>
+Featuring terraces or balconies, the elegant suites include flat-screen TVs and sitting areas with sofas. All come with minibars and coffeemakers, as well as bathrooms with whirlpool tubs. Some include in-room whirlpool tubs, outdoor hot tubs and/or ocean views. Upgraded suites have separate living rooms. Room service is available. Kids are welcome in some suites.
+<br><br>
+There are 6 restaurants and 11 bars (some with live music). Other amenities include a 400m-long outdoor pool, tennis courts and a spa.
+ <br>
+ </p>
+<hr>
+<div class="footer">Built by the Bride (and Groom)</div> 
             
 
-<script src="scripts.js"></script>
        
     </body>
 
