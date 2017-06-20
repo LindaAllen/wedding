@@ -35,7 +35,7 @@ nav.navbar.navbar-default {
     background-color: transparent;
 }
 
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { /*mobile hover*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { /*mobile hover*/
     background-color: #000;
 }
 
@@ -82,69 +82,79 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover { /*logo hover*/
     color: #ffffff;
-    }
+}
 
-    a.navbar-brand {
+a.navbar-brand {
     font-family: "Parisienne", cursive;
     font-size: 22px;
 }
 
 /*OUR STORY*/
 .home {
-background-image:url('images/overlay1.png');
-height: 100vh;
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image:url('images/test2.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-inner { /*carousel*/
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
+
+
 
 /*WHENWHERE*/
 .whenwhere {
-background-image:url('images/beach.png');
-height: 100vh;
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image:url('images/beach.png');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
+
 /*TRAVEL*/
 .travel {
-background-image:url('images/travel.png');
-height: 100vh;
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image:url('images/travel.png');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 /*RSVP*/
 .rsvp {
-background-image:url('images/plane.jpg');
-height: 100vh;
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image:url('images/plane.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 /*REGISTRY*/
 .registry {
-background-image:url('images/registry.jpg');
-height: 100vh;
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
-
+    background-image:url('images/registry.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 /*COUNTDOWN*/
 #countdown {
     text-align: center;
-  font-size: 60px;
-  padding-top: 30px;
+    font-size: 60px;
+    padding-top: 30px;
 }
 
 /*FOOTER*/
@@ -153,4 +163,6 @@ background-repeat: no-repeat;
     padding-right: 30px;
     padding-bottom: 10px;
 }
+
+
 
