@@ -8,6 +8,10 @@ h1 {
     margin-top: 0px;
 }
 
+h2 {
+     font-family: "Roboto", sans-serif;
+}
+
 .center {
     text-align: center;
 }
@@ -41,7 +45,7 @@ nav.navbar.navbar-default {
 
 /*NAVBAR MEDIA for changing collapse */ 
 
-@media (max-width: 1161px) {
+@media (max-width: 975px) {
   .navbar-header {
       float: none;
   }
@@ -193,45 +197,72 @@ a.navbar-brand {
     font-size: 22px;
 }
 
+.body_content {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
 
 /*WHENWHERE*/
 .whenwhere {
-    background-image:url('images/beach.png');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/beach.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
 
 /*TRAVEL*/
 .travel {
-    background-image:url('images/travel.png');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/majestic.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 
 }
 
 /*RSVP*/
 .rsvp {
-    background-image:url('images/plane.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/flight.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 
+
+}
+
+.party {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/flowers.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.schedule {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/schedule.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 /*REGISTRY*/
 .registry {
-    background-image:url('images/registry.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/registry.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+
 }
 
 
@@ -273,4 +304,53 @@ a.navbar-brand {
         background-repeat: no-repeat;
         background-position: center center;
     }
+    .whenwhere{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .travel{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+.rsvp{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+.registry{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .schedule{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
 }
+@media (max-width: 990px) {
+    .enegagement {
+        display: none;
+    }
+}
+
+
