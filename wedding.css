@@ -89,24 +89,109 @@ a.navbar-brand {
     font-size: 22px;
 }
 
-/*OUR STORY*/
+/*WELCOME*/
 .home {
-    background-image:url('images/test2.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/test2.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
+.carousel-inner  img {
+    position: relative;
+}
+.carousel-inner img:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
 
-.carousel-inner { /*carousel*/
+#carousel-example-generic {
+    position: relative;
+}
+.carousel-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding : 0;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+}
+
+.home2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/home2.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
+.carousel-inner  img {
+    position: relative;
+}
+.carousel-inner img:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#carousel-example-generic {
+    position: relative;
+}
+.carousel-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding : 0;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+}
+
+.home3 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/home3.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-inner  img {
+    position: relative;
+}
+.carousel-inner img:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#carousel-example-generic {
+    position: relative;
+}
+.carousel-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding : 0;
+    z-index: 999999;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    font-size: 22px;
+}
 
 
 /*WHENWHERE*/
@@ -165,4 +250,27 @@ a.navbar-brand {
 }
 
 
-
+/*MOBILE*/
+@media (max-width: 900px) {
+    .home{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     .home2{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     .home3{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
