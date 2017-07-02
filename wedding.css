@@ -20,6 +20,10 @@ body {
     background-color: #e6e6e6;
 }
 
+hr {
+    border-top: 1px solid #222;
+}
+
 /*NAVBAR*/
 
 nav.navbar.navbar-default {
@@ -210,6 +214,10 @@ a.navbar-brand {
     width: 100%;
 }
 
+.heart {
+    height: 70px;
+}
+
 /*WHENWHERE*/
 .whenwhere {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/beach.jpg');
@@ -371,12 +379,18 @@ a.navbar-brand {
 
 
 
-img.wparty {
-    height: 250px;
-    width: 250px;
+
+.circle-img {
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle-img:after {
+    content: "";
+    display: block;
+  padding-bottom: 100%;  
 }
 
-.heart {
-    height: 70px;
-}
 
