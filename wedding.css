@@ -293,131 +293,7 @@ a.navbar-brand {
 }
 }
 
-/*PARTY*/
-.circle-img {
-    width: 100%;
-    border-radius: 100%;
-    border: 2px solid white;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.circle-img:after {
-    content: "";
-    display: block;
-  padding-bottom: 100%;  
-}
-
-/*COUNTDOWN*/
-#countdown {
-    text-align: center;
-    font-size: 60px;
-    padding-top: 30px;
-}
-
-/*FOOTER*/
-.footer_body {
-    background-color: #222222;
-}
-
-.footer {
-    font-size: 16px;
-    font-family: "Parisienne", cursive;
-    color: white;
-    text-align: right;
-    padding-right: 50px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-
-/*MOBILE*/
-@media (max-width: 900px) {
-    .home{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-     .home2{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-     .home3{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-    .whenwhere{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-    .travel{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-.rsvp{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-
-.registry{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-    .schedule{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-
-
-}
-@media (max-width: 990px) {
-    .enegagement {
-        display: none;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*SCHEDULE*/
 
 
 .timeline ul li {
@@ -538,6 +414,111 @@ a.navbar-brand {
   }
 }
 
+/*PARTY*/
+.circle-img {
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle-img:after {
+    content: "";
+    display: block;
+  padding-bottom: 100%;  
+}
+
+/*COUNTDOWN*/
+#countdown {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+/*FOOTER*/
+.footer_body {
+    background-color: #222222;
+}
+
+.footer {
+    font-size: 16px;
+    font-family: "Parisienne", cursive;
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 
 
+/*MOBILE*/
+@media (max-width: 900px) {
+    .home{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     .home2{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+     .home3{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .whenwhere{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 
+    .travel{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+.rsvp{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+.registry{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .schedule{
+        height: 85vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+}
+@media (max-width: 990px) {
+    .enegagement {
+        display: none;
+    }
+}
