@@ -240,6 +240,12 @@ a.navbar-brand {
 
 }
 
+@media screen and (max-width: 991px) {
+ .row.mobile_row {
+    display: none;
+}
+}
+
 /*RSVP*/
 .rsvp {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/flight.jpg');
@@ -280,6 +286,13 @@ a.navbar-brand {
     position: relative;
 
 }
+
+@media screen and (max-width: 991px) {
+.registry_icons {
+    width: 100%;
+}
+}
+
 /*PARTY*/
 .circle-img {
     width: 100%;
@@ -407,13 +420,6 @@ a.navbar-brand {
 
 
 
-
-
-
-
-
-
-
 .timeline ul li {
   list-style-type: none;
   position: relative;
@@ -421,6 +427,8 @@ a.navbar-brand {
   margin: 0 auto;
   padding-top: 50px;
   background: #fff;
+      color: white;
+    font-size: 16px;
 }
  
 .timeline ul li::after {
@@ -440,7 +448,7 @@ a.navbar-brand {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: #19caca;
 }
  
 .timeline ul li div::before {
@@ -459,7 +467,7 @@ a.navbar-brand {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent #19caca transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -469,7 +477,7 @@ a.navbar-brand {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  border-color: transparent transparent transparent #19caca;
 }
 
 .timeline ul li::after {
@@ -478,7 +486,7 @@ a.navbar-brand {
 }
  
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: #19caca;
 }
  
 .timeline ul li div {
@@ -526,7 +534,10 @@ a.navbar-brand {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #19caca transparent transparent;
   }
 }
+
+
+
 
