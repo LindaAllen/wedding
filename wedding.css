@@ -1,6 +1,6 @@
 /*BASE*/
 h1 {
-    font-family: "Parisienne", cursive;
+    font-family: cursive;
     text-align: center;
     color: #ffffff;
     font-size: 72px;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-     font-family: "Roboto", sans-serif;
+     font-family: "Open Sans", sans-serif;
 }
 
 .center {
@@ -17,7 +17,9 @@ h2 {
 }
 
 body {
-    background-color: #e6e6e6;
+    background-color: #f9f9f4;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
 
 hr {
@@ -103,7 +105,7 @@ a.navbar-brand {
 
 /*WELCOME*/
 .home {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/test2.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/home1.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -207,7 +209,11 @@ a.navbar-brand {
 
 .body_content {
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+#countdown {
+     font-family: "Open Sans", sans-serif;
 }
 
 .arrow {
@@ -216,6 +222,15 @@ a.navbar-brand {
 
 .heart {
     height: 70px;
+}
+
+
+.home_border { /*white background*/
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 
 /*WHENWHERE*/
@@ -305,6 +320,7 @@ a.navbar-brand {
   background: #fff;
       color: white;
     font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
  
 .timeline ul li::after {
@@ -517,8 +533,19 @@ a.navbar-brand {
 
 
 }
-@media (max-width: 990px) {
+
+@media (max-width: 990px) { /*selfie on index*/
     .enegagement {
         display: none;
     }
+    .hr_mobile {
+        display: none;
+    }
 }
+
+
+
+
+
+
+
