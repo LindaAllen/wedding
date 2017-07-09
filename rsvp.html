@@ -95,11 +95,11 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
 </p>
 <br>
 
-<form class="form-horizontal">
+<form class="form-horizontal" id='rsvp-form' method="POST">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="" name="email">
     </div>
   </div>
 
@@ -107,10 +107,10 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
     <label for="inputEmail3" class="col-sm-2 control-label">Can you attend?</label>
     <div class="col-sm-10">
       <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes, I'll be there
+  <input type="radio" name="rsvp" id="inlineRadio1" value="Yes"> Yes, I'll be there
 </label>
 <label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Sorry, can't make it
+  <input type="radio" name="rsvp" id="inlineRadio2" value="No"> Sorry, can't make it
 </label>
     </div>
   </div>
@@ -118,14 +118,14 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">What are the names of people attending?</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" placeholder="">
+      <input type="text" class="form-control" placeholder="" name="people">
     </div>
   </div>
 
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Comments and/or questions</label>
     <div class="col-sm-10">
-      <textarea class="form-control" rows="3"></textarea>
+      <textarea class="form-control" rows="3" name="comments"></textarea>
     </div>
   </div>
   <div class="form-group">
@@ -144,7 +144,25 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
   <div class="footer">Built by the Bride (and Groom)</div> 
 </div>
             
-
+<script>
+$('#rsvp-form').submit(function (e){
+  e.preventDefault();
+  var formData = $('#rsvp-form').serializeArray();
+  var data = {};
+  $.each(formData, function (i, v) {
+    data[v.name] = v.value;
+  });  
+  $.ajax({
+    type: "POST",
+    url: "https://6z7jqysjde.execute-api.us-east-1.amazonaws.com/dev/rsvp",
+    contentType: "application/json",
+    data: JSON.stringify(data)
+  }).then(function(t) {
+    window.location.href = "./thankyou.html";
+  });
+  return false;
+});
+</script>
        
     </body>
 
