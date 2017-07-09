@@ -9,7 +9,9 @@ h1 {
 }
 
 h2 {
-     font-family: "Open Sans", sans-serif;
+    font-family: cursive;
+    font-size: 52px;
+     /*font-family: "Open Sans", sans-serif;*/
 }
 
 .center {
@@ -17,6 +19,7 @@ h2 {
 }
 
 body {
+
     background-color: #f9f9f4;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -213,7 +216,8 @@ a.navbar-brand {
 }
 
 #countdown {
-     font-family: "Open Sans", sans-serif;
+    font-family: cursive;
+   /*  font-family: "Open Sans", sans-serif;*/
 }
 
 .arrow {
@@ -226,6 +230,7 @@ a.navbar-brand {
 
 
 .home_border { /*white background*/
+    
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 20px;
