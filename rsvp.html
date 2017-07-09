@@ -2,6 +2,9 @@
 <html>
 
     <head>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The McDevitt Wedding</title>
          <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   
@@ -154,7 +157,7 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
     });  
     $.ajax({
       type: "POST",
-      url: "https://6z7jqysjde.execute-api.us-east-1.amazonaws.com/dev/rsvp",
+      url: "https://api.themcdevittwedding.com/rsvp",
       contentType: "application/json",
       data: JSON.stringify(data)
     }).then(function(t) {
