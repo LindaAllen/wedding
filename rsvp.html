@@ -145,23 +145,23 @@ Contact us with any questions at (484) 801-7565 or lindaallenx@gmail.com
 </div>
             
 <script>
-$('#rsvp-form').submit(function (e){
-  e.preventDefault();
-  var formData = $('#rsvp-form').serializeArray();
-  var data = {};
-  $.each(formData, function (i, v) {
-    data[v.name] = v.value;
-  });  
-  $.ajax({
-    type: "POST",
-    url: "https://6z7jqysjde.execute-api.us-east-1.amazonaws.com/dev/rsvp",
-    contentType: "application/json",
-    data: JSON.stringify(data)
-  }).then(function(t) {
-    window.location.href = "./thankyou.html";
+  $('#rsvp-form').submit(function (e){
+    e.preventDefault();
+    var formData = $('#rsvp-form').serializeArray();
+    var data = {};
+    $.each(formData, function (i, v) {
+      data[v.name] = v.value;
+    });  
+    $.ajax({
+      type: "POST",
+      url: "https://6z7jqysjde.execute-api.us-east-1.amazonaws.com/dev/rsvp",
+      contentType: "application/json",
+      data: JSON.stringify(data)
+    }).then(function(t) {
+      window.location.href = "./thankyou.html";
+    });
+    return false;
   });
-  return false;
-});
 </script>
        
     </body>
