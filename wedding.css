@@ -20,7 +20,7 @@ h2 {
 
 body {
 
-    background-color: #f9f9f4;
+   /* background-color: #f9f9f4;*/
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 }
@@ -58,7 +58,7 @@ nav.navbar.navbar-default {
 
 /*NAVBAR MEDIA for changing collapse */ 
 
-@media (max-width: 975px) {
+@media (max-width: 1080px) {
   .navbar-header {
       float: none;
   }
@@ -215,17 +215,24 @@ a.navbar-brand {
     font-family: "Open Sans", sans-serif;
 }
 
-#countdown {
-    font-family: cursive;
-   /*  font-family: "Open Sans", sans-serif;*/
-}
-
-.arrow {
+/*.arrow {
     width: 100%;
 }
 
 .heart {
     height: 70px;
+}*/
+
+.fall {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/fall.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container.home_img {
+  padding-top: 75px;
 }
 
 
@@ -235,6 +242,8 @@ a.navbar-brand {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 125px;
+    margin-right: 125px;
     background-color: white;
 }
 
@@ -260,10 +269,26 @@ a.navbar-brand {
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
  .row.mobile_row {
     display: none;
 }
+
+.home_border { 
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+
+
+}
+
+@media screen and (max-width: 448px) {
+ .countdown {
+  font-size: 48px !important;
+ }
+
+
 }
 
 /*RSVP*/
@@ -454,6 +479,9 @@ a.navbar-brand {
     text-align: center;
     font-size: 60px;
     padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: cursive;
+   /*  font-family: "Open Sans", sans-serif;*/
 }
 
 /*FOOTER*/
@@ -466,7 +494,7 @@ a.navbar-brand {
     font-family: "Parisienne", cursive;
     color: white;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
