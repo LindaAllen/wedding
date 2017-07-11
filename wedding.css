@@ -18,6 +18,10 @@ h2 {
     text-align: center;
 }
 
+.color {
+  background-color: #f9f9f4;
+
+}
 body {
 
    /* background-color: #f9f9f4;*/
@@ -245,6 +249,15 @@ a.navbar-brand {
 
 .home_img {
   padding-top: 75px;
+}
+
+.row.home_border {
+  margin: 0px;
+}
+
+img.registry_icons.home_border {
+  margin: 0px;
+    margin-bottom: 15px;
 }
 
 .home_border_ { /*white background*/
