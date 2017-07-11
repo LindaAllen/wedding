@@ -231,10 +231,34 @@ a.navbar-brand {
     position: relative;
 }
 
+.wwbeach {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/wwbeach.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 .container.home_img {
   padding-top: 75px;
 }
 
+.home_img {
+  padding-top: 75px;
+}
+
+.home_border_ { /*white background*/
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*margin-left: 125px;
+    margin-right: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+    0 1px 2px rgba(0,0,0,0.24);*/
+    background-color: white;
+}
 
 .home_border { /*white background*/
     
@@ -244,7 +268,13 @@ a.navbar-brand {
     padding-bottom: 20px;
     margin-left: 125px;
     margin-right: 125px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+    0 1px 2px rgba(0,0,0,0.24);
     background-color: white;
+}
+
+.home_border:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /*WHENWHERE*/
