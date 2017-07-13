@@ -546,23 +546,13 @@ img.registry_icons.home_border {
 /*MOBILE*/
 @media (max-width: 900px) {
     .home{
-        height: 85vh;
-        
-        background-position: center;
+        display: none;
     }
      .home2{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+        display: none;
     }
      .home3{
-        height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+       
     }
     .whenwhere{
         height: 85vh;
