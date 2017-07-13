@@ -546,21 +546,21 @@ img.registry_icons.home_border {
 /*MOBILE*/
 @media (max-width: 900px) {
     .home{
-        height: 85vh;
+        height: 50vh;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
      .home2{
-        height: 85vh;
+        height: 50vh;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
      .home3{
-        height: 85vh;
+        height: 50vh;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -616,9 +616,6 @@ img.registry_icons.home_border {
     }
     .hr_mobile {
         display: none;
-    }
-    #bs-example-navbar-collapse-1 {
-      box-sizing: content-box;
     }
 }
 
