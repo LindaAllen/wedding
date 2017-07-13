@@ -548,23 +548,23 @@ img.registry_icons.home_border {
     .home{
         height: 85vh;
         background-attachment: fixed;
-        background-size: none;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+     
     }
      .home2{
         height: 85vh;
         background-attachment: fixed;
-        background-size: none;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+       
     }
      .home3{
         height: 85vh;
         background-attachment: fixed;
-        background-size: none;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        
     }
     .whenwhere{
         height: 85vh;
