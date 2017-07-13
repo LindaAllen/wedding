@@ -547,31 +547,21 @@ img.registry_icons.home_border {
 @media (max-width: 900px) {
     .home{
         height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-     
+        
     }
      .home2{
         height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
        
     }
      .home3{
         height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
         
     }
     .whenwhere{
         height: 85vh;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+       
     }
 
     .travel{
