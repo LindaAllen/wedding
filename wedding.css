@@ -568,7 +568,7 @@ img.registry_icons.home_border {
     }
     .whenwhere{
         height: 85vh;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -576,7 +576,7 @@ img.registry_icons.home_border {
 
     .travel{
         height: 85vh;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -584,7 +584,7 @@ img.registry_icons.home_border {
 
 .rsvp{
         height: 85vh;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -593,7 +593,7 @@ img.registry_icons.home_border {
 
 .registry{
         height: 85vh;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -601,11 +601,26 @@ img.registry_icons.home_border {
 
     .schedule{
         height: 85vh;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    .fall {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.wwbeach {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 
 
 }
