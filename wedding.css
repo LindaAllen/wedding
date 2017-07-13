@@ -617,6 +617,9 @@ img.registry_icons.home_border {
     .hr_mobile {
         display: none;
     }
+    #bs-example-navbar-collapse-1 {
+      box-sizing: content-box;
+    }
 }
 
 
