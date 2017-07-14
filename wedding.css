@@ -235,8 +235,8 @@ a.navbar-brand {
     position: relative;
 }
 
-.wwbeach {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/wwbeach.jpeg');
+.beach_water {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('images/beach_water.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -610,7 +610,7 @@ img.registry_icons.home_border {
     position: relative;
 }
 
-.wwbeach {
+.beach_water {
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
